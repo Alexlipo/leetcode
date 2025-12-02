@@ -37,7 +37,7 @@ import java.util.Map;
  *
  * 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
  */
-public class T1_两数之和 {
+public class P1_两数之和 {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -53,7 +53,7 @@ public class T1_两数之和 {
     }
 
     public static void main(String[] args) {
-        T1_两数之和 o = new T1_两数之和();
+        P1_两数之和 o = new P1_两数之和();
         System.out.println(Arrays.toString(o.twoSum(new int[]{2,7,11,15}, 9)));
         System.out.println(Arrays.toString(o.twoSum(new int[]{3, 2, 4}, 6)));
         System.out.println(Arrays.toString(o.twoSum(new int[]{3, 3}, 6)));
