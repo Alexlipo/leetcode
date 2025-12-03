@@ -1,4 +1,4 @@
-package array;
+package lipo.array;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -43,7 +43,7 @@ import java.util.Map;
  * –108 <= xi, yi <= 108
  * 所有点两两不同。
  */
-public class P3623_统计梯形的数目_I {
+public class M_统计梯形的数目_I {
 
     public int countTrapezoids(int[][] points) {
         Map<Integer, Integer> heightNum = new HashMap<>();
@@ -62,7 +62,7 @@ public class P3623_统计梯形的数目_I {
     }
 
     public static void main(String[] args) {
-        P3623_统计梯形的数目_I o = new P3623_统计梯形的数目_I();
+        M_统计梯形的数目_I o = new M_统计梯形的数目_I();
         int[][] p1 = new int[][]{new int[]{1,0}, new int[]{2,0}, new int[]{3,0},
                 new int[]{2,2}, new int[]{3,2}};
         System.out.println(o.countTrapezoids(p1));
