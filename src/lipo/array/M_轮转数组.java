@@ -1,4 +1,4 @@
-package lipo;
+package lipo.array;
 
 import java.util.Arrays;
 
