@@ -21,4 +21,18 @@ public class ListNode {
         }
         System.out.println(list);
     }
+
+    public static ListNode buildListNode(int[] values) {
+        if (values == null || values.length == 0) {
+            return null;
+        }
+        ListNode head = new ListNode(values[0]);
+        ListNode prev = head;
+        for (int i = 1; i < values.length; i++) {
+            ListNode node = new ListNode(values[i]);
+            prev.next = node;
+            prev = node;
+        }
+        return head;
+    }
 }

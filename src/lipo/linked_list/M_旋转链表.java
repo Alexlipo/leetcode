@@ -37,11 +37,6 @@ public class M_旋转链表 {
 
     public static void main(String[] args) {
         M_旋转链表 o = new M_旋转链表();
-        ListNode l5 = new ListNode(5);
-        ListNode l4 = new ListNode(4, l5);
-        ListNode l3 = new ListNode(3, l4);
-        ListNode l2 = new ListNode(2, l3);
-        ListNode l1 = new ListNode(1, l2);
-        ListNode.printListNode(o.rotateRight(l1, 2));
+        ListNode.printListNode(o.rotateRight(ListNode.buildListNode(new int[]{1,2,3,4,5}), 2));
     }
 }
