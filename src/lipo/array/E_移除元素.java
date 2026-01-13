@@ -13,7 +13,6 @@ public class E_移除元素 {
             }
         }
         return p;
-
     }
 
 }
