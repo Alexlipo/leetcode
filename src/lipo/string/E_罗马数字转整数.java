@@ -1,4 +1,4 @@
-package lipo.array;
+package lipo.string;
 
 /**
  * https://leetcode.cn/problems/roman-to-integer/description/?envType=study-plan-v2&envId=top-interview-150
